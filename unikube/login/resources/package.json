@@ -1,0 +1,13 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "material-design-icons": "^3.0.1",
+    "vue": "^2.6.12",
+    "vuetify": "^2.4.3"
+  }
+}

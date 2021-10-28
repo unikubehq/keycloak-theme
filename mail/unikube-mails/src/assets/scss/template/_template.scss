@@ -1,0 +1,114 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #FCFCFD !important;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: Verdana, sans-serif !important;
+  font-weight: bold !important;
+  color: #343D6F;
+}
+@media screen and (max-width: 596px) {
+  .company-name {
+    display: block;
+    margin-top: 20px;
+  }
+}
+
+.container.header {
+  background: #FCFCFD;
+  padding: 20px;
+}
+.header--inner {
+  margin-top: 20px;
+}
+
+.logo {
+  width: 143px !important;
+  padding-right: 20px;
+  @media screen and (max-width: 596px) {
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 597px) {
+    border-right: 1px solid #E5EEF6;
+  }
+}
+.title {
+  vertical-align: middle;
+  th {
+    color: #343D6F !important;
+  }
+}
+
+.main {
+  border: 1px solid #E5EEF6;
+}
+// Full Width Headers
+.header {
+  background: #8a8a8a;
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #fff;
+  padding-top: 15px;
+}
+
+p {
+  color: #A1A9B2;
+  line-height: 27px;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.header .wrapper-inner {
+  padding: 20px;
+}
+
+.header .container {
+  background: transparent;
+}
+
+.footer {
+  background-color: #FCFCFD !important;
+  p {
+    font-size: 12px !important;
+    color: #343D6F !important;
+  }
+  .bold {
+    font-weight: 800;
+  }
+}
+
+td.large-12.last, th.large-12.last {
+  padding-right: 32px;
+}
+td.large-12.first, th.large-12.first {
+  padding-left: 32px;
+}
+// Social Media
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+
+.wrapper.secondary {
+  background: #f3f3f3;
+}
