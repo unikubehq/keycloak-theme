@@ -11,7 +11,7 @@ COPY unikube/login/resources/package.json /node
 RUN cd /node
 
 RUN npm install
-FROM quay.io/keycloak/keycloak AS keycloak
+FROM quay.io/keycloak/keycloak:15.0.2 AS keycloak
 RUN mkdir /opt/jboss/keycloak/themes/unikube/
 
 COPY --from=node /app/unikube /opt/jboss/keycloak/themes/unikube/
