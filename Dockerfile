@@ -27,5 +27,5 @@ COPY --from=node /node/node_modules/material-design-icons/iconfont/material-icon
 COPY --from=node /node/node_modules/vuetify/dist/vuetify.min.css /opt/jboss/keycloak/themes/unikube/account/resources/js/
 COPY --from=node /node/node_modules/vue/dist/vue.min.js /opt/jboss/keycloak/themes/unikube/account/resources/js/
 COPY --from=node /node/node_modules/vuetify/dist/vuetify.min.js /opt/jboss/keycloak/themes/unikube/account/resources/js/
-COPY --from=node /app/unikube/login/theme.prod.properties /opt/jboss/keycloak/themes/unikube/account/theme.properties
+COPY --from=node /app/unikube/account/theme.prod.properties /opt/jboss/keycloak/themes/unikube/account/theme.properties
 
