@@ -80,7 +80,6 @@ a#kc-current-locale-link::after {
 }
 
 #kc-logo-wrapper {
-    background-image: url(../img/keycloak-logo-2.png);
     background-repeat: no-repeat;
     height: 63px;
     width: 300px;
@@ -181,7 +180,7 @@ ol#kc-totp-settings {
 }
 
 ul#kc-totp-supported-apps {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 #kc-totp-secret-qr-code {
@@ -297,8 +296,8 @@ a.zocial  {
     white-space: normal;
 }
 .zocial:before {
-  border-right: 0;
-  margin-right: 0;
+    border-right: 0;
+    margin-right: 0;
 }
 .zocial span:before {
     padding: 7px 10px;
@@ -347,7 +346,7 @@ a.zocial  {
 @media (max-width: 767px) {
 
     .login-pf body {
-      background: white;
+        background: white;
     }
 
     #kc-header {
@@ -358,11 +357,11 @@ a.zocial  {
     }
 
     #kc-header-wrapper {
-      font-size: 16px;
-      font-weight: bold;
-      padding: 20px 60px 0 0;
-      color: #72767b;
-      letter-spacing: 0;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 20px 60px 0 0;
+        color: #72767b;
+        letter-spacing: 0;
     }
 
     div.kc-logo-text {
@@ -431,78 +430,78 @@ a.zocial  {
 }
 
 #kc-form-buttons {
-  margin-top: 40px;
+    margin-top: 40px;
 }
 
 .login-pf-page .login-pf-brand {
-  margin-top: 20px;
-  max-width: 360px;
-  width: 40%;
+    margin-top: 20px;
+    max-width: 360px;
+    width: 40%;
 }
 
 .card-pf {
-  background: #fff;
-  margin: 0 auto;
-  padding: 0 20px;
-  max-width: 500px;
-  border-top: 0;
-  box-shadow: 0 0 0;
+    background: #fff;
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 500px;
+    border-top: 0;
+    box-shadow: 0 0 0;
 }
 
 /*tablet*/
 @media (max-width: 840px) {
     .login-pf-page .card-pf{
-      max-width: none;
-      margin-left: 20px;
-      margin-right: 20px;
-      padding: 20px 20px 30px 20px;
+        max-width: none;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 20px 20px 30px 20px;
     }
 }
 @media (max-width: 767px) {
     .login-pf-page .card-pf{
-      max-width: none;
-      margin-left: 0;
-      margin-right: 0;
-      padding-top: 0;
+        max-width: none;
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 0;
     }
     .card-pf.login-pf-accounts{
-      max-width: none;
+        max-width: none;
     }
 }
 
 .login-pf-page .login-pf-signup {
-  font-size: 15px;
-  color: #72767b;
+    font-size: 15px;
+    color: #72767b;
 }
 #kc-content-wrapper .row {
-  margin-left: 0;
-  margin-right: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 @media (min-width: 768px) {
-  .login-pf-page .login-pf-social-section:first-of-type {
-    padding-right: 39px;
-    border-right: 1px solid #d1d1d1;
-    margin-right: -1px;
-  }
-  .login-pf-page .login-pf-social-section:last-of-type {
-    padding-left: 40px;
-  }
-  .login-pf-page .login-pf-social-section .login-pf-social-link:last-of-type {
-    margin-bottom: 0;
-  }
+    .login-pf-page .login-pf-social-section:first-of-type {
+        padding-right: 39px;
+        border-right: 1px solid #d1d1d1;
+        margin-right: -1px;
+    }
+    .login-pf-page .login-pf-social-section:last-of-type {
+        padding-left: 40px;
+    }
+    .login-pf-page .login-pf-social-section .login-pf-social-link:last-of-type {
+        margin-bottom: 0;
+    }
 }
 
 .login-pf-page .login-pf-social-link {
-  margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 .login-pf-page .login-pf-social-link a {
-  padding: 2px 0;
+    padding: 2px 0;
 }
 
 .login-pf-page.login-pf-page-accounts {
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .login-pf-page .btn-primary {
@@ -518,7 +517,7 @@ a.zocial  {
 }
 
 .login-pf-page .card-pf{
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 #kc-form-login div.form-group:last-of-type,
@@ -537,50 +536,50 @@ form#kc-select-back-form div.login-pf-social-section {
 }
 
 .logo--bottom {
-  position: absolute;
-  bottom: -13%;
-  right: -60px;
-  opacity: 0.1;
+    position: absolute;
+    bottom: -13%;
+    right: -60px;
+    opacity: 0.1;
 }
 
 .container--login {
-  position: relative;
-  overflow: hidden;
+    position: relative;
+    overflow: hidden;
 }
 
 .v-application {
-  letter-spacing: -0.2px;
+    letter-spacing: -0.2px;
 }
 .v-text-field--outlined .v-label {
-  left: -40px !important;
+    left: -40px !important;
 }
 .v-application--is-ltr .v-text-field--outlined legend {
-  display: none;
+    display: none;
 }
 .v-input.v-text-field.v-text-field--enclosed {
-  padding-top: 25px;
+    padding-top: 25px;
 }
 .theme--light.v-label {
-  font-weight: 500;
+    font-weight: 500;
 }
 .theme--light.v-label:not(.v-label--is-disabled) {
-  color: #343D6F !important;
+    color: #343D6F !important;
 }
 .v-btn:not(.v-btn--text):not(.v-btn--outlined):hover:before {
-  opacity: 0 !important;
+    opacity: 0 !important;
 }
 .v-btn.primary:hover {
-  background-color: #36BE82 !important;
+    background-color: #36BE82 !important;
 }
 .v-application--is-ltr .v-text-field .v-label:not(.v-label--is-disabled) {
-  color: #343D6F !important;
+    color: #343D6F !important;
 }
 .v-application--is-ltr .v-text-field .v-label.v-label--is-disabled {
-  color: #C4CCD4;
+    color: #C4CCD4;
 }
 .theme--light.v-input--is-disabled ::placeholder,
 .theme--light.v-input--is-disabled ::placeholder {
-  color: #DCE0E5 !important;
+    color: #DCE0E5 !important;
 }
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
@@ -591,20 +590,20 @@ textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  -webkit-text-fill-color: #343D6F;
-  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
-  transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #343D6F;
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+    transition: background-color 5000s ease-in-out 0s;
 }
 .v-application .v-navigation-drawer__content {
-  overflow-y: visible;
-  overflow-x: visible;
+    overflow-y: visible;
+    overflow-x: visible;
 }
 .v-text-field--outlined.v-input--has-state.error--text fieldset {
-  border: 1px solid #ff5252;
+    border: 1px solid #ff5252;
 }
 
 .v-toolbar__content {
-  justify-content: space-between;
+    justify-content: space-between;
 }
 
 .v-tab {
@@ -617,10 +616,10 @@ select:-webkit-autofill:focus {
 }
 
 .v-input--switch__thumb.theme--light {
-  left: 5px !important;
+    left: 5px !important;
 }
 .v-input--switch__thumb.theme--light.primary--text {
-  color: white !important;
+    color: white !important;
 }
 .theme--light.v-text-field--filled>.v-input__control>.v-input__slot {
     color: #fff;
