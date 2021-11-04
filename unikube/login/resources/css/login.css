@@ -469,7 +469,7 @@ a.zocial  {
     }
 }
 
-.login-pf-page .login-pf-signup {
+.login-pf-page .login-pf-signup, .info-text {
     font-size: 15px;
     color: #72767b;
 }
@@ -704,4 +704,7 @@ select:-webkit-autofill:focus {
 .kc-sso-logo {
     margin: 0 12px;
     display: inline-block !important;
+}
+.v-error-field {
+    color: #ff5252;
 }
