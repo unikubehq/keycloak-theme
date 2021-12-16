@@ -22,10 +22,16 @@
         <p class="delete-account-text">${msg("finalDeletionConfirmation")}</p>
 
       <div id="kc-form-buttons">
-            <v-btn block color="primary" large elevation="0" :ripple="false" class="${properties.kcButtonClass!} ${properties.kcButtonPrimaryClass!} ${properties.kcButtonLargeClass!}" type="submit" value="${msg("doConfirmDelete")}" >${msg("doConfirmDelete")}</v-btn>
+        <v-row>
+            <v-col cols="6">
+                <v-btn block color="primary" large elevation="0" :ripple="false" class="${properties.kcButtonClass!} ${properties.kcButtonPrimaryClass!} ${properties.kcButtonLargeClass!}" type="submit" value="${msg("doConfirmDelete")}" >${msg("doConfirmDelete")}</v-btn>
+            </v-col>
             <#if triggered_from_aia>
-            <v-btn block color="primary" large elevation="0" :ripple="false" class="${properties.kcButtonClass!} ${properties.kcButtonDefaultClass!} ${properties.kcButtonLargeClass!}" style="margin-left: calc(100% - 220px)" type="submit" name="cancel-aia" value="true" />${msg("doCancel")}</v-btn>
+            <v-col cols="6">
+                <v-btn block color="primary" large elevation="0" outlined :ripple="false" class="${properties.kcButtonClass!} ${properties.kcButtonDefaultClass!} ${properties.kcButtonLargeClass!}" style="margin-left: calc(100% - 220px)" type="submit" name="cancel-aia" value="true" />${msg("doCancel")}</v-btn>
+            </v-col>
             </#if>
+        <v-row>
        </div>
     </form>
    </#if>
