@@ -28,7 +28,7 @@
             </v-col>
             <#if triggered_from_aia>
             <v-col cols="6">
-                <v-btn block color="primary" large elevation="0" outlined :ripple="false" class="${properties.kcButtonClass!} ${properties.kcButtonDefaultClass!} ${properties.kcButtonLargeClass!}" style="margin-left: calc(100% - 220px)" type="submit" name="cancel-aia" value="true" />${msg("doCancel")}</v-btn>
+                <v-btn block color="primary" large elevation="0" outlined :ripple="false" class="${properties.kcButtonClass!} ${properties.kcButtonDefaultClass!} ${properties.kcButtonLargeClass!}" type="submit" name="cancel-aia" value="true" />${msg("doCancel")}</v-btn>
             </v-col>
             </#if>
         <v-row>
