@@ -29,3 +29,4 @@ COPY --from=node /node/node_modules/vue/dist/vue.min.js /opt/jboss/keycloak/them
 COPY --from=node /node/node_modules/vuetify/dist/vuetify.min.js /opt/jboss/keycloak/themes/unikube/account/resources/js/
 COPY --from=node /app/unikube/account/theme.prod.properties /opt/jboss/keycloak/themes/unikube/account/theme.properties
 
+COPY ./metrics/keycloak-metrics-spi-2.5.3.jar /opt/jboss/keycloak/standalone/deployments/
